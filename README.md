@@ -49,7 +49,7 @@ async function handleRequest(request) {
       }
     });
 
-    // 使用环境变量中的飞书 URL,修改为你自己的 webhook 地址
+    // 飞书机器人地址，修改为你自己的 webhook 地址
     const feishuUrl = 'https://open.feishu.cn/open-apis/bot/v2/hook/**************';
 
     const feishuResponse = await fetch(feishuUrl, {
